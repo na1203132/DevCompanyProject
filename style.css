@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+  
+  font-family: "Open Sans";
+   font-family: 'Scope One';
+    src: url('fonts/ScopeOne-Regular.ttf') format('truetype');
+}
+
+.home-body{
+  background: url(images/laptop.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.main-nav, .serv-nav{
+    width:100%;
+    min-height:180px;
+    margin: 0;
+}
+
+
+.main-nav ul , .serv-nav ul{
+    float: right;
+    font-weight: 1000;
+    margin: 0;
+    padding: 20px 25px 25px 0;
+}
+
+
+
+.main-nav ul li , .serv-nav ul li{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right:60px;
+  margin-top:20px;
+  list-style-type: none;
+}
+
+.main-nav a, .serv-nav a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  }
+  .main-nav a:hover, .serv-nav a:hover {
+    padding-top: 30px;
+    border-top: 3px solid rgb(1, 243, 243, 0.808);
+    border-width: 10px;
+    text-decoration: underline;
+  }
+
+
+ .main-nav .logo, .serv-nav .logo{
+      float: left;
+      margin: 0px 15px 15px 10px;
+      position: relative;
+  }
+
+  .serv-nav{
+    background-color: black;
+    min-height:110px;
+    border-radius: 50px;
+    box-shadow: 10px 15px 40px; black;
+  }
+
+  .nav a {
+    padding-top: 30px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  }
+  
+  .intro{
+    text-align: center;
+    float: right;
+    margin: 100px 80px 0 0;
+    line-height: 0.8;
+  }
+.intro span,
+.intro p{
+  font-family: 'Scope One', Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-size:28px;
+  color: white;
+  
+}
+
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size:80px;
+  color: white;
+}
+
+  
+h1 .live {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size:80px;
+  color: rgb(1, 243, 243);
+}
+
+section p a{
+  background: rgba(1, 243, 243, 0.808);
+  border-radius: 40px 40px;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: white;
+  font: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  display:inline-block;
+  margin-top: 20px;
+}
+
+section p a:hover{
+  transition: 0.5s;
+  background-color: forestgreen;
+}
+
+.main-tag-serv{
+
+}
+div{
+    width: 92%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.bground-dev{
+  max-width: 100%;
+  padding: .7em;
+  border: solid 1px #ededed;
+  margin-top: 50px;
+}
+
+.content1{
+  border-bottom: 3px solid #dadada;
+  font-family: "Scope One", Serif;
+  font-size:20px;
+  font-weight:normal;
+}
+
+.content2{
+  border-bottom: 3px solid #dadada;
+  font-family: "Scope One", serif;
+  font-size:20px;
+  font-weight:normal;
+ 
+}
+
